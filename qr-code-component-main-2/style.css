@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.qr-challenge {
+  max-width: 1440px;
+  max-height: 800px;
+  padding: 10%;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: hsl(218, 44%, 22%);
+  box-shadow: 0px 4px 12px 0px hsl(220, 15%, 55%);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-qr-code {
+  max-width: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding-bottom: 32px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a:link {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (max-width: 376px) {
+  .qr-challenge {
+    max-width: 375px;
+    padding: 30% 10%;
+  }
+}
